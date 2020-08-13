@@ -2,6 +2,7 @@ import React from "react";
 import './style.css';
 import { Container, Row, Col } from 'react-bootstrap';
 
+//Displays characters
 function Main(props){
     return (
         <Container>
