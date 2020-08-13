@@ -9,7 +9,7 @@
     {
         "id": 2,
         "name": "Tidus",
-        "icon": "https://static.wikia.nocookie.net/finalfantasy/images/e/e7/FFX_Artwork_Tidus.png/revision/latest/top-crop/width/360/height/450?cb=20180309234959",
+        "icon": "https://static.wikia.nocookie.net/finalfantasy/images/e/e7/FFX_Artwork_Tidus.png/revision/latest/scale-to-width-down/350?cb=20180309234959",
         "game": "Final Fantasy X",
         "mainChar": true
     },
@@ -23,21 +23,21 @@
     {
         "id": 4,
         "name": "Squall Leonhart",
-        "icon": "https://www.finalfantasyunion.com/charimg/squall-leonhart.jpg",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/b/b7/Squall_Leonhart.png",
         "game": "Final Fantasy VIII",
         "mainChar": true
     },
     {
         "id": 5,
         "name": "Luneth",
-        "icon": "https://static.wikia.nocookie.net/finalfantasy/images/5/56/Luneth-Freelancer.png/revision/latest/scale-to-width-down/340?cb=20110115142252",
+        "icon": "https://i.pinimg.com/originals/6f/cb/e3/6fcbe3a69331274c28ac6f86e5969937.jpg",
         "game": "Final Fantasy III",
         "mainChar": true
     },
     {
         "id": 6,
         "name": "Yuna",
-        "icon": "https://www.clipartmax.com/png/middle/32-321126_shinra-news-yuna-final-fantasy-x-summoner.png",
+        "icon": "https://static.wikia.nocookie.net/finalfantasy/images/f/f9/FFX_Artwork_Yuna.png/revision/latest/scale-to-width-down/191?cb=20141023193639",
         "game": "Final Fantasy X",
         "mainChar": false
     },

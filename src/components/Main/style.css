@@ -1,0 +1,18 @@
+.icon {
+    height: 250px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.chars{
+    margin: 10px;
+    border: 3px solid black;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.info{
+    margin-top: 15%;
+}

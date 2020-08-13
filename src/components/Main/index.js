@@ -5,9 +5,9 @@ import { Container, Row, Col } from 'react-bootstrap';
 function Main(props){
     return (
         <Container>
-            <Row>
-                <Col xs={8}>1 of 2</Col>
-                <Col>2 of 2</Col>
+            <Row className="chars">
+                <Col xs={8} className="info">Name: {props.name} | Game: {props.game}</Col>
+                <Col><img className="icon" src={props.icon} alt="icon"></img></Col>
             </Row>
         </Container>
     )

@@ -5,10 +5,10 @@ import { Container, Row, Col } from 'react-bootstrap';
 function SortButtons(props){
     return (
         <Container>
-            <Row>
-                <Col><button className="btn btn-primary">Sort By Name</button></Col>
-                <Col><button className="btn btn-primary">Show Main Characters</button></Col>
-                <Col><button className="btn btn-primary">Show Side Characters</button></Col>
+            <Row className = "sort">
+                <Col xs="4"><button className="btn btn-primary">Sort By Name</button></Col>
+                <Col xs="4"><button className="btn btn-primary">Show Main Characters</button></Col>
+                <Col xs="4"><button className="btn btn-primary">Show Side Characters</button></Col>
             </Row>
         </Container>
     )
