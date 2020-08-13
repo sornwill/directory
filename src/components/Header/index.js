@@ -3,7 +3,7 @@ import './style.css';
 
 function Header(){
     return (
-        <div> Directory </div>
+        <div className="Header"> Directory </div>
     )
 };
 

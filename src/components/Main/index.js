@@ -1,10 +1,16 @@
 import React from "react";
 import './style.css';
+import { Container, Row, Col } from 'react-bootstrap';
 
-function Header(){
+function Main(){
     return (
-        <div> Header </div>
+        <Container>
+            <Row>
+                <Col xs={8}>1 of 2</Col>
+                <Col>2 of 2</Col>
+            </Row>
+        </Container>
     )
 };
 
-export default Header;
+export default Main;
