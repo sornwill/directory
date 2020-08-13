@@ -2,7 +2,7 @@ import React from "react";
 import './style.css';
 import { Container, Row, Col } from 'react-bootstrap';
 
-function Main(){
+function Main(props){
     return (
         <Container>
             <Row>

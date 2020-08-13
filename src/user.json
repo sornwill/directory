@@ -3,30 +3,49 @@
         "id": 1,
         "name": "Cloud Strife",
         "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Cloud_Strife.png/220px-Cloud_Strife.png",
-        "game": "Final Fantasy VII"
+        "game": "Final Fantasy VII",
+        "mainChar": true
     },
     {
         "id": 2,
         "name": "Tidus",
         "icon": "https://static.wikia.nocookie.net/finalfantasy/images/e/e7/FFX_Artwork_Tidus.png/revision/latest/top-crop/width/360/height/450?cb=20180309234959",
-        "game": "Final Fantasy X"
+        "game": "Final Fantasy X",
+        "mainChar": true
     },
     {
         "id": 3,
         "name": "Noctis Lucis Caellum",
         "icon": "https://upload.wikimedia.org/wikipedia/en/2/2d/NoctisLucisCaelum.png",
-        "game": "Final Fantasy XV"
+        "game": "Final Fantasy XV",
+        "mainChar": true
     },
     {
         "id": 4,
         "name": "Squall Leonhart",
         "icon": "https://www.finalfantasyunion.com/charimg/squall-leonhart.jpg",
-        "game": "Final Fantasy VIII"
+        "game": "Final Fantasy VIII",
+        "mainChar": true
     },
     {
         "id": 5,
         "name": "Luneth",
         "icon": "https://static.wikia.nocookie.net/finalfantasy/images/5/56/Luneth-Freelancer.png/revision/latest/scale-to-width-down/340?cb=20110115142252",
-        "game": "Final Fantasy III"
+        "game": "Final Fantasy III",
+        "mainChar": true
+    },
+    {
+        "id": 6,
+        "name": "Yuna",
+        "icon": "https://www.clipartmax.com/png/middle/32-321126_shinra-news-yuna-final-fantasy-x-summoner.png",
+        "game": "Final Fantasy X",
+        "mainChar": false
+    },
+    {
+        "id": 7,
+        "name": "Aerith",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/2/2f/Aerith_Gainsborough.png",
+        "game": "Final Fantasy VII",
+        "mainChar": false
     }
 ]
