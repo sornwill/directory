@@ -51,19 +51,24 @@ function App() {
   }
   
   //Revert to original.
-  // const showAll = () => {
-  //   const all = Data;
+  const showAll = () => {
+    const all = [...Data].sort(function(a,b) {
+      let numA = a.id;
+      let numB = b.id;
 
-  //   console.log("Showing All");
-  //   sortChar(all);
-  // }
+      return numA - numB;
+    });
+
+    sortChar(all);
+  }
 
   //need to add searchBar when finished
   return (
     <div>
       <Header/>
-     
+      
       <SortButtons
+        sAll={showAll}
         sName={sortName}
         sMain={showMain}
         sSide={showSide}

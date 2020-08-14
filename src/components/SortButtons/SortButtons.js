@@ -8,10 +8,15 @@ function SortButtons(props){
         <Container>
             <Row className = "sort">
                 <Col>
+                <Row>
                 <button className="btn btn-primary" onClick={()=>props.sName()}>Sort By Name</button>
                 <button className="btn btn-primary" onClick={()=>props.sGame()}>Sort By Game</button>
+                </Row> 
+                <Row>
+                <button className="btn btn-primary" onClick={()=>props.sAll()}>Show All</button>
                 <button className="btn btn-primary" onClick={()=>props.sMain()}>Show Main Characters</button>
                 <button className="btn btn-primary" onClick={()=>props.sSide()}>Show Side Characters</button>
+                </Row>
                 </Col>
             </Row>
         </Container>
