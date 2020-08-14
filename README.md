@@ -32,7 +32,9 @@ This app is an example of using React. Allows user to sort data via the given bu
 npm i create-react-app, npm i react-bootstrap
 
 ## Usage
-General Use 
+npm i create-react-app,
+npm i react-bootstrap,
+then npm start.
     
 ## License
 MIT 
