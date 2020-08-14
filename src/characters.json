@@ -4,48 +4,80 @@
         "name": "Cloud Strife",
         "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Cloud_Strife.png/220px-Cloud_Strife.png",
         "game": "Final Fantasy VII",
-        "mainChar": true
+        "keyNum": 7,
+        "mainChar": true,
+        "trait": "Rarely smiles."
     },
     {
         "id": 2,
         "name": "Tidus",
         "icon": "https://static.wikia.nocookie.net/finalfantasy/images/e/e7/FFX_Artwork_Tidus.png/revision/latest/scale-to-width-down/350?cb=20180309234959",
         "game": "Final Fantasy X",
-        "mainChar": true
+        "keyNum": 10,
+        "mainChar": true,
+        "trait": "Laughs weird"
     },
     {
         "id": 3,
         "name": "Noctis Lucis Caellum",
         "icon": "https://upload.wikimedia.org/wikipedia/en/2/2d/NoctisLucisCaelum.png",
         "game": "Final Fantasy XV",
-        "mainChar": true
+        "keyNum": 15,
+        "mainChar": true,
+        "trait": "Does it for the bros."
     },
     {
         "id": 4,
         "name": "Squall Leonhart",
         "icon": "https://upload.wikimedia.org/wikipedia/en/b/b7/Squall_Leonhart.png",
         "game": "Final Fantasy VIII",
-        "mainChar": true
+        "keyNum": 8,
+        "mainChar": true,
+        "trait": "Has sword that goes pew."
     },
     {
         "id": 5,
         "name": "Luneth",
         "icon": "https://i.pinimg.com/originals/6f/cb/e3/6fcbe3a69331274c28ac6f86e5969937.jpg",
         "game": "Final Fantasy III",
-        "mainChar": true
+        "keyNum": 3,
+        "mainChar": true,
+        "trait": "Has lots of costumes."
     },
     {
         "id": 6,
         "name": "Yuna",
         "icon": "https://static.wikia.nocookie.net/finalfantasy/images/f/f9/FFX_Artwork_Yuna.png/revision/latest/scale-to-width-down/191?cb=20141023193639",
         "game": "Final Fantasy X",
-        "mainChar": false
+        "keyNum": 10,
+        "mainChar": false,
+        "trait": "Summons Magical Beings. Also laughs weird."
     },
     {
         "id": 7,
         "name": "Aerith",
         "icon": "https://upload.wikimedia.org/wikipedia/en/2/2f/Aerith_Gainsborough.png",
         "game": "Final Fantasy VII",
-        "mainChar": false
+        "keyNum": 7,
+        "mainChar": false,
+        "trait": "Sells flowers."
+    },
+    {
+        "id": 8,
+        "name": "Sazh Katzroy",
+        "icon": "https://www.usajacket.com/wp-content/uploads/2017/06/Sazh-Katzroy-Final-Fantasy-13-Coat.jpg",
+        "game": "Final Fantasy XIII",
+        "keyNum": 13,
+        "mainChar": false,
+        "trait": "Looking for his son."
+    },
+    {
+        "id": 9,
+        "name": "Claire Farron 'Lightning'",
+        "icon": "https://vignette.wikia.nocookie.net/p__/images/c/c6/FFXIII-Lightning_CG.png/revision/latest/top-crop/width/360/height/450?cb=20120612101851&path-prefix=protagonist",
+        "game": "Final Fantasy XIII",
+        "keyNum": 13,
+        "mainChar": true,
+        "trait": "Looking for her sister."
     }
 ]

@@ -3,13 +3,16 @@ import './style.css';
 import { Container, Row, Col } from 'react-bootstrap';
 
 //Sorts Characters by Name or Shows main or side characters
-function SortButtons(sortName, showMain, showSide){
+function SortButtons(props){
     return (
         <Container>
             <Row className = "sort">
-                <Col xs="4"><button className="btn btn-primary" onClick={sortName}>Sort By Name</button></Col>
-                <Col xs="4"><button className="btn btn-primary">Show Main Characters</button></Col>
-                <Col xs="4"><button className="btn btn-primary">Show Side Characters</button></Col>
+                <Col>
+                <button className="btn btn-primary" onClick={()=>props.sName()}>Sort By Name</button>
+                <button className="btn btn-primary" onClick={()=>props.sGame()}>Sort By Game</button>
+                <button className="btn btn-primary" onClick={()=>props.sMain()}>Show Main Characters</button>
+                <button className="btn btn-primary" onClick={()=>props.sSide()}>Show Side Characters</button>
+                </Col>
             </Row>
         </Container>
     )

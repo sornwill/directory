@@ -7,7 +7,13 @@ function Main(props){
     return (
         <Container>
             <Row className="chars">
-                <Col xs={8} className="info">Name: {props.name} | Game: {props.game}</Col>
+                <Col xs={8} className="info">
+                    <ul>
+                        <li>Name: {props.name}</li>
+                        <li>Game: {props.game} </li>
+                        <li>Trait: {props.trait}</li>
+                    </ul>
+                </Col>
                 <Col><img className="icon" src={props.icon} alt="icon"></img></Col>
             </Row>
         </Container>
